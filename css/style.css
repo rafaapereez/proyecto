@@ -1,0 +1,72 @@
+body
+{
+background-image: url("../image/android.jpg");		/* ../vamos a raiz luego /image carpeta donde esta la imagen*/
+}
+
+header, nav, aside, section, footer
+{
+
+}
+
+#container
+{			
+background:black;
+width: 80%;            
+margin: auto;
+border-radius: 5px;
+padding: 10px;
+}
+
+header
+{		
+background: #7feeff;
+border-radius: 100px 100px 0px 0px;
+margin-bottom: 3px;
+}
+
+header h1
+{
+text-align: center;
+padding: 5px;
+margin: 0px;
+}
+
+nav
+{
+height: 20px;
+background: green;
+
+}
+
+aside
+{
+height: 200px;
+width: 19%;
+float: left;
+background: purple;
+margin-top: 3px;
+margin-right: 3px;
+}
+
+section
+{
+height: 200px;
+width: 80%;
+float: left;		
+background: #8cffd4;
+margin: 3px 0px;
+
+}
+
+#login
+{
+width: 100%;
+}
+
+footer
+{
+height: 20px;
+clear: both;
+background: #7feeff;
+border-radius: 0px 0px 300px 300px;
+}
